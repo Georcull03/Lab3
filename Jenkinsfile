@@ -8,7 +8,7 @@ pipeline {
         }
         stage(‘Test’){
             steps {
-                sh “pwd” 
+                sh "pwd" 
             }
         }
         stage('Deploy'){
